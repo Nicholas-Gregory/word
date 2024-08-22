@@ -1,0 +1,17 @@
+{
+  "name": "word",
+  "version": "1.0.0",
+  "description": "An extremely simple frontend-only app for seeing random dictionary entries that remembers which ones you've seen so far and doesn't repeat them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "cd client && npm run build",
+    "deploy": "gh-pages -d ./client/dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "homepage": "https://nicholas-gregory.github.io/word"
+}
